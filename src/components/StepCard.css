@@ -1,0 +1,107 @@
+.step-card {
+    width: 298px;
+height: 385px;
+top: 9px;
+left: 25px;
+gap: 0px;
+border-radius: 10px 10px 10px 10px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+border: 2px solid #404040
+  }
+  .step-card h3 {
+    width: 60px;
+    height: 30px;
+    top: 247px;
+    left: 120px;
+    gap: 0px;
+    padding-left: 100px;
+    opacity: 0px;
+    font-family: 'Quicksand';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: right;
+    text-underline-position:'from-font';
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+  }
+  
+  .card-image-start {
+    width: 180px;
+    height: 183.46px;
+    top: 1.54px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  .card-image-activity {
+    width: 298px;
+    height: 186px;
+    top: 13px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+  .card-image-result {
+    width: 240px;
+    height: 194px;
+    top: 14px;
+    left: 29px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  .card-button {
+    width: 130px;
+    height: 41px; 
+    padding: 11px 33px 44px px;
+    border-radius: 48px 48px 48px 48px;
+    font-weight: 600;
+    font-size: 16px; 
+    font-family: 'Quicksand', sans-serif;
+    line-height: 41px; 
+    text-align: center; 
+    text-underline-position: from-font; 
+    text-decoration-skip-ink: none; 
+    color: transparent;
+    background-color: transparent; 
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid transparent; 
+    opacity: 1; 
+    position: center;
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .card-button.red {
+    color: #FF999B; /* Set the text color same as border color */
+    border-color: #ff999b;
+  }
+  
+  
+  .card-button.green {
+    color: #B8FF91; /* Set the text color same as border color */
+    border-color: #B8FF91;
+  }
+  
+  
+  .card-button.pink {
+    color: #FF9BE1;
+    border-color: #FF9BE1;
+  }
+  
+  .card-button:hover {
+    transform: scale(1.05); 
+  }
+  .step-card p{
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  
+  
+  .card-button:active {
+    transform: scale(0.95); 
+  }
+  
